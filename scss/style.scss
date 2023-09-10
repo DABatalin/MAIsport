@@ -1,0 +1,28 @@
+/*Обнуление*/
+
+@import "reset.scss";
+
+/*Подключение шрифтов*/
+
+// @font-face {
+//   font-family: 'font-name';
+//   src: local('font-name'),
+// 	   url('../fonts/font-name.woff2') format('woff2'), 
+// 	   url('../fonts/font-name.woff') format('woff'),
+// 	   url('../fonts/font-name.ttf') format('ttf'),
+// 	   url('../fonts/font-name.eot') format('eot');
+// }
+
+// Общие
+
+.wrapper {
+	padding: 10px;
+}
+
+/*Шапка*/
+
+@import "header.scss";
+
+/*Подвал*/
+
+@import "footer.scss";
